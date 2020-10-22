@@ -106,3 +106,38 @@ footer {
 .description h3 {
     font-size: 24px;
 }
+
+@media screen and (max-width:768px) {
+
+    .title {
+        font-size: 18px;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .description {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .description p,
+    h3 {
+        display: flex;
+        justify-content: center;
+        min-width: 280px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
